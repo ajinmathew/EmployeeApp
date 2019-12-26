@@ -6,102 +6,160 @@
     android:layout_height="match_parent"
     tools:context=".AddEmployee"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/background">
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Employee Code"
-        android:layout_gravity="left"/>
+        android:layout_gravity="left"
+        android:textColor="#121212"
+        android:textSize="14dp"/>
     <EditText
+        android:background="@drawable/bgsquare"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/empcode"/>
+        android:id="@+id/empcode"
+        android:textColorHint="#121212"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Employee Name"
-        android:layout_gravity="left"/>
+        android:layout_gravity="left"
+        android:textColor="#121212"
+        android:textSize="14dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/empname"/>
+        android:id="@+id/empname"
+        android:textColorHint="#121212"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bgsquare"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Designation"
-        android:layout_gravity="left"/>
+        android:layout_gravity="left"
+        android:textColor="#121212"
+        android:textSize="14dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/empdesignation"/>
+        android:id="@+id/empdesignation"
+        android:textColorHint="#121212"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bgsquare"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Salary"
-        android:layout_gravity="left"/>
+        android:layout_gravity="left"
+        android:textColor="#121212"
+        android:textSize="14dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/empsalary"/>
+        android:id="@+id/empsalary"
+        android:textColorHint="#121212"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bgsquare"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Company Name"
-        android:layout_gravity="left"/>
+        android:layout_gravity="left"
+        android:textColor="#121212"
+        android:textSize="14dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/companyname"/>
+        android:id="@+id/companyname"
+        android:textColorHint="#121212"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bgsquare"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp">
+        android:padding="5dp"
+        android:gravity="center">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="District  "
-            android:layout_gravity="left" />
+            android:layout_gravity="center_vertical"
+            android:textColor="#121212"
+            android:textSize="14dp"/>
         <Spinner
             android:id="@+id/sp1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/district"/>
+            android:entries="@array/district"
+            android:background="@drawable/bgsquare"/>
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Place"
-        android:layout_gravity="left"/>
+        android:layout_gravity="left"
+        android:textColor="#121212"
+        android:textSize="14dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/empplace"/>
+        android:id="@+id/empplace"
+        android:textColorHint="#121212"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bgsquare"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="email id"
-        android:layout_gravity="left"/>
+        android:layout_gravity="left"
+        android:textColor="#121212"
+        android:textSize="14dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/empemilid"/>
+        android:id="@+id/empemilid"
+        android:textColorHint="#121212"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bgsquare"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mobile no"
-        android:layout_gravity="left"/>
+        android:layout_gravity="left"
+        android:textColor="#121212"
+        android:textSize="14dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/empmobile"/>
+        android:id="@+id/empmobile"
+        android:textColorHint="#121212"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bgsquare"/>
+
     <Button
+        android:id="@+id/upload"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Upload"
-        android:id="@+id/upload"/>
+        android:background="@drawable/bgsquare"
+        android:text="Upload" />
 
 </LinearLayout>

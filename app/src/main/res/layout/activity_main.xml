@@ -6,19 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:padding="25dp">
 
 
     <Button
+        android:id="@+id/addemployee"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/bgsquare"
         android:text="Add Employee"
-        android:id="@+id/addemployee"/>
+        android:textAllCaps="false"
+        android:textStyle="bold" />
 
     <Button
+        android:id="@+id/viewemployee"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bgsquare"
         android:text="View Employee"
-        android:id="@+id/viewemployee"/>
+        android:textAllCaps="false"
+        android:textStyle="bold" />
 
 </LinearLayout>
