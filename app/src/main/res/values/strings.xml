@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EmployeeApp</string>
+
+    <string-array name="district">
+        <item> Select District </item>
+        <item> Alappuzha </item>
+        <item> Ernakulam </item>
+        <item> Idukki </item>
+        <item> Kannur </item>
+        <item> Kasaragod </item>
+        <item> Kollam </item>
+        <item> Kottayam </item>
+        <item> Kozhikode </item>
+        <item> Malappuram </item>
+        <item> Palakkad </item>
+        <item> Pathanamthitta </item>
+        <item> Thiruvananthapuram </item>
+        <item> Thrissur	</item>
+        <item> Wayanad </item>
+    </string-array>
+</resources>
